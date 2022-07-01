@@ -30,8 +30,8 @@ def find_price(symbol: str) -> List[float]:
             price_list.append(ask_price)
         if error_count > LIMIT_ERROR_SOURCE:
             
-            #Problem say I need to throw error but I don't know that you need me
-            #to raise or just print error so if it raise just delete sharp symbol below.
+            #Problem say I need to throw error but I don't know that you need me to raise or
+            #just print error so if it raise just delete sharp symbol in Line36 and add sharp in Line37.
 
             #raise Exception("Not enough source")
             return 'Not enough source'
