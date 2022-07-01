@@ -34,3 +34,5 @@ I know that I only send one symbol per request but some API like Binance have so
 
 CoinGecko have worst API rate limit only 30/min so that why I only need code to sleep when CoinGecko reach limit because other API is impossible to reach limit before Coingecko. But I know that you need to handle other API too for rate limit, so if I have time I will handle on other API too.
 
+2.5 wrapper.py
+I don't know that wrapper.py that you want are need to write with decorator so I just wrap all API in this code instead, and I think my wrapper is very bad for extended it in future. If I have more time I will use decorator instead of list of function.
