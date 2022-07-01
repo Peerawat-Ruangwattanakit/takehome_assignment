@@ -1,6 +1,6 @@
 from crypto_median import find_median_of_symbols
 
-'''find_median_of_symbols(["BTC", "ETH", "USDT"])
+find_median_of_symbols(["BTC", "ETH", "USDT"])
 
 find_median_of_symbols([
     "BTC", "ETH", "USDT", "USDC", "BNB", "BUSD", "ADA", "XRP",
@@ -31,7 +31,7 @@ find_median_of_symbols([
     "SHIB", "ONE", "SNX", "MULTI", "FIO", "DOCK", "FUEL", "WAVES",
     "VITE", "DUSK", "SSV", "PNT", "ALICE", "GBP", "WAXP", "AAVE",
     "JUV", "ERN", "CHR", "ABVP", "LINK", "DAI", "ETC", "KMD", "HC", "WIN"
-    ])'''
+    ])
 
 find_median_of_symbols([
     "ALCX", "SCRT", "BDOT", "HIGH", "BCH", "LIT", "SUB", "ARDR", "PSG",
